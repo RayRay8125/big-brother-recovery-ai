@@ -1,0 +1,27 @@
+big-brother-recovery-ai/
+  ├─ .gitignore
+  ├─ package.json
+  ├─ README.md
+  ├─ next.config.js
+  ├─ tsconfig.json
+  ├─ public/
+  │   └─ favicon.ico
+  ├─ src/
+  │   ├─ pages/
+  │   │   ├─ index.tsx
+  │   │   ├─ dashboard.tsx
+  │   │   ├─ api/
+  │   │   │   ├─ checkin.ts
+  │   │   │   ├─ strictness.ts
+  │   │   │   ├─ subscription.ts
+  │   ├─ lib/
+  │   │   ├─ strictnessEngine.ts
+  │   │   ├─ aiCoach.ts
+  │   │   ├─ stripe.ts
+  │   │   ├─ paypal.ts
+  │   ├─ components/
+  │   │   ├─ Layout.tsx
+  │   │   ├─ CheckinForm.tsx
+  │   │   ├─ StrictnessBadge.tsx
+  │   │   ├─ PricingTable.tsx
+  ├─ .env.example
